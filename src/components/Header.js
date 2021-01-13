@@ -41,6 +41,7 @@ const useStyles = makeStyles((theme) => ({
         fontSize: '4rem',
     },
 }));
+
 export default function Header() {
     const classes = useStyles();
     const [checked, setChecked] = useState(false);
