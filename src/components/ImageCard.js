@@ -7,15 +7,16 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
+import { Collapse } from '@material-ui/core';
 
 const useStyles = makeStyles({
   root: {
-    maxWidth: 545,
+    maxWidth: 505,
     background: 'rgba(0,0,0,0.5)',
     margin: '20px',
   },
   media: {
-    height: 340,
+    height: 300,
   },
   title: {
     fontFamily: 'Nunito',
@@ -30,10 +31,11 @@ const useStyles = makeStyles({
   },
 });
 
-export default function ImageCard({ place }) {
+export default function ImageCard({ place, checked }) {
   const classes = useStyles();
 
   return (
+    <Collapse in={checked} {...(checked ? { timeout: 1000 } : {})} >
     <Card className={classes.root}>
         <CardMedia
           className={classes.media}
@@ -59,5 +61,6 @@ export default function ImageCard({ place }) {
           </Typography>
         </CardContent>
     </Card>
+    </Collapse>
   );
 }
