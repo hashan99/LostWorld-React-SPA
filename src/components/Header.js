@@ -6,6 +6,7 @@ import SortIcon from '@material-ui/icons/Sort';
 const useStyles = makeStyles((theme) => ({
     appbar: {
         background: 'none',
+        fontFamily: 'Nunito',
     },
     appbarWrapper: {
         width: '80%',
