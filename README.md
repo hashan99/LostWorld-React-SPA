@@ -1,8 +1,10 @@
-<a href="http://52.139.220.136:3000/"><h4>Lost World - react SPA</h4></a>
+<a href="http://52.139.220.136:3000/"><h1>Lost World - react SPA</h1></a>
 <br />
-<a href="http://52.139.220.136:3000/"><img src="https://res.cloudinary.com/db957qd0z/image/upload/v1610578548/logos/Screenshot_5247_atvgrh.png" /></a>
+<h3>Preview -> <a href="http://52.139.220.136:3000/">http://52.139.220.136:3000/</a></h3>
 <br />
-<a href="http://52.139.220.136:3000/"><img src="https://res.cloudinary.com/db957qd0z/image/upload/v1610578549/logos/Screenshot_5248_idxero.png" /></a>
+<a href="http://52.139.220.136:3000/"><img src="https://res.cloudinary.com/db957qd0z/image/upload/v1610578548/logos/Screenshot_5247_atvgrh.png" height="400px" height="600px"/></a>
+<br />
+<a href="http://52.139.220.136:3000/"><img src="https://res.cloudinary.com/db957qd0z/image/upload/v1610578549/logos/Screenshot_5248_idxero.png" height="400px" height="600px"/></a>
 
 # Getting Started with Create React App
 
