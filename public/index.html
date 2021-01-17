@@ -41,5 +41,21 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <!--chatbot-->
+    <div id="webchat"/>
+<script src="https://cdn.jsdelivr.net/npm/rasa-webchat/lib/index.min.js"></script>
+
+// Or you can replace latest with a specific version
+<script>
+  WebChat.default.init({
+    selector: "#webchat",
+    customData: {"language": "en"}, // arbitrary custom data. Stay minimal as this will be added to the socket
+    socketUrl: "http://4d989ef203fa.ngrok.io", //http://localhost:5005
+    socketPath: "/socket.io/",
+    title: "Lost World",
+    // subtitle: "first bot ever!",
+
+  })
+</script>
   </body>
 </html>
